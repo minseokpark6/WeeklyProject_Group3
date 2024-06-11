@@ -30,7 +30,7 @@ with tabs[0]:
     # 사이드바 내용 (런던)
     st.sidebar.header("런던 사이드바")
     # 예: 런던 데이터에 관련된 입력 요소들
-    london_option = st.sidebar.selectbox("런던 옵션", ["옵션 1", "옵션 2", "옵션 3"])
+    # london_option = st.sidebar.selectbox("런던 옵션", ["옵션 1", "옵션 2", "옵션 3"])
 
     # 런던 지도 생성 및 렌더링
     london_map = create_london_map()
@@ -43,7 +43,7 @@ with tabs[1]:
     # 사이드바 내용 (파리)
     st.sidebar.header("파리 사이드바")
     # 예: 파리 데이터에 관련된 입력 요소들
-    paris_option = st.sidebar.selectbox("파리 옵션", ["옵션 A", "옵션 B", "옵션 C"])
+    # paris_option = st.sidebar.selectbox("파리 옵션", ["옵션 A", "옵션 B", "옵션 C"])
 
     # 파리 지도 생성 및 렌더링
     paris_map = create_paris_map()
