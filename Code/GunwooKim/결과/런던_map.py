@@ -103,3 +103,4 @@ def create_london_map():
     # Streamlit을 통해 folium 지도를 표시
     st.title('런던 지도')
     st_folium(map_london)
+  
