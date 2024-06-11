@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-06-07T13:26:47Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/546635829",
+        "name": "Saint-Loubès",
+        "operator": "SNCF",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XFSIT",
+        "station": "train",
+        "uic_ref": "8758473",
+        "wikidata": "Q3097562",
+        "wikipedia": "fr:Gare de Saint-Loubès"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4332238,
+          44.9223901
+        ]
+      },
+      "id": "node/546635829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1308998006",
+        "alt_name": "Gare de Lyon RER",
+        "level": "-3",
+        "name": "Gare de Lyon",
+        "note": "Please do not add the tag public_transport=station, it is already on the way that defines the footprint of the station",
+        "official_name": "PARIS GARE DE LYON",
+        "operator": "SNCF",
+        "railway": "station",
+        "ref:FR:STIF": "41396",
+        "ref:FR:uic8": "87686030",
+        "route_ref:FR:RER_D": "SOVA;FUCA;UOVA;VIPE;LOVA;VUCA;FOVA;LUCA;VOVA;MIPE;UUCA;SUCA;VOPA;MOPA;MIPA;FOPA;LOPA",
+        "start_date": "1995-09-24",
+        "station": "train",
+        "train": "yes",
+        "type:RATP": "rer",
+        "uic_ref": "8768603",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3743151,
+          48.8435522
+        ]
+      },
+      "id": "node/1308998006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259823078",
+        "STIF:zone": "4",
+        "addr:city": "Ermont",
+        "addr:postcode": "95120",
+        "addr:street": "Rue du Maréchal Gallieni",
+        "name": "Cernay",
+        "network": "Transilien",
+        "network:wikidata": "Q389554",
+        "note": "Please do not add public_transport=station, already defined on the footprint of the station (must be unique)",
+        "note:fr": "Ne pas ajouter public_transport=station déjà présent sur le périmètre de la gare",
+        "operator": "SNCF",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:FR:RATP": "5574",
+        "ref:FR:STIF": "41086",
+        "ref:FR:uic8": "87276063",
+        "station": "train",
+        "train": "yes",
+        "type:RATP": "rer",
+        "uic_ref": "8727606",
+        "wikidata": "Q3096168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2571269,
+          48.9851245
+        ]
+      },
+      "id": "node/5259823078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5699564584",
+        "name": "Pavilly-Station",
+        "operator": "SNCF",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "SNCF - 06/2013",
+        "station": "train",
+        "train": "yes",
+        "uic_ref": "8741127",
+        "wikidata": "Q3097262",
+        "wikipedia": "fr:Gare de Pavilly-Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9505129,
+          49.5640283
+        ]
+      },
+      "id": "node/5699564584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5699592928",
+        "name": "Rethel",
+        "operator": "SNCF",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "Bing;SNCF Réseau",
+        "station": "train",
+        "train": "yes",
+        "uic_ref": "8717227",
+        "wikidata": "Q2438613"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3696584,
+          49.5042515
+        ]
+      },
+      "id": "node/5699592928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5713113150",
+        "name": "Tourville-la-Rivière",
+        "network": "TER Normandie",
+        "network:wikidata": "Q30740754",
+        "operator": "SNCF",
+        "operator:wikidata": "Q13646",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:FR:uic8": "87411181",
+        "station": "train",
+        "train": "yes",
+        "uic_ref": "8741118",
+        "wikidata": "Q2355108",
+        "wikipedia": "fr:Gare de Tourville"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0984776,
+          49.3245722
+        ]
+      },
+      "id": "node/5713113150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5713736798",
+        "name": "Hendaia",
+        "name:es": "Hendaya",
+        "name:eu": "Hendaia",
+        "name:fr": "Hendaye",
+        "network": "Euskotren Trena",
+        "network:wikidata": "Q149274",
+        "official_name": "Hendaia",
+        "operator": "Eusko Trenbideak – Ferrocarriles Vascos",
+        "operator:es": "Ferrocarriles Vascos",
+        "operator:eu": "Eusko Trenbideak",
+        "operator:wikidata": "Q3061020",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "SNCF - 08/2017",
+        "station": "train",
+        "train": "yes",
+        "uic_ref": "8767700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7825049,
+          43.3522255
+        ]
+      },
+      "id": "node/5713736798"
+    }
+  ]
+}
