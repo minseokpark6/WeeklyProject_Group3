@@ -25,43 +25,31 @@ st.markdown("""
 # 타이틀
 st.markdown("<h1 style='color: #FF5A5F;'>Airbnb 숙소 분석</h1>", unsafe_allow_html=True)
 
-# 초기 상태 설정
-if 'tab' not in st.session_state:
-    st.session_state['tab'] = "런던"
-
 # 탭 생성
 tabs = st.tabs(["런던", "파리"])
 
-# 탭 렌더링
-for i, tab_name in enumerate(["런던", "파리"]):
-    with tabs[i]:
-        if tab_name == "런던":
-            st.session_state['tab'] = tab_name
-            
-            apply_london_sidebar_styles()
-            initialize_london_sidebar_state()
-            render_london_sidebar(key='london_sidebar_button')
-            
-            # 런던 지도 생성 및 렌더링
-            london_map = create_london_map()
-            if london_map is not None:
-                folium_static(london_map, width=1200, height=600)
-            else:
-                st.error("런던 지도를 생성하는 데 실패했습니다.")
-                
-        elif tab_name == "파리":
-            st.session_state['tab'] = tab_name
-            
-            apply_paris_sidebar_styles()
-            initialize_paris_sidebar_state()
-            render_paris_sidebar(key='paris_sidebar_button')
-            
-            # 파리 지도 생성 및 렌더링
-            paris_map = create_paris_map()
-            if paris_map is not None:
-                folium_static(paris_map, width=1200, height=600)
-            else:
-                st.error("파리 지도를 생성하는 데 실패했습니다.")
-    
-    
-    
+with tabs[0]:
+    # 런던 사이드바 스타일 적용 및 초기화
+    apply_london_sidebar_styles()
+    initialize_london_sidebar_state()
+    render_london_sidebar(key='london_sidebar_button')
+
+    # 런던 지도 생성 및 렌더링
+    london_map = create_london_map()
+    if london_map is not None:
+        folium_static(london_map, width=1200, height=600)
+    else:
+        st.error("런던 지도를 생성하는 데 실패했습니다.")
+
+with tabs[1]:
+    # 파리 사이드바 스타일 적용 및 초기화
+    apply_paris_sidebar_styles()
+    initialize_paris_sidebar_state()
+    render_paris_sidebar(key='paris_sidebar_button')
+
+    # 파리 지도 생성 및 렌더링
+    paris_map = create_paris_map()
+    if paris_map is not None:
+        folium_static(paris_map, width=1200, height=600)
+    else:
+        st.error("파리 지도를 생성하는 데 실패했습니다.")

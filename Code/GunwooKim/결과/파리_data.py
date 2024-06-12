@@ -13,7 +13,7 @@ def modify_url(url, params):
     return urlunparse(url_parts)
 
 # 글꼴 경로 지정
-font_path = "c:/Windows/Fonts/malgun.ttf"  # 윈도우에 설치된 맑은 고딕 폰트 경로
+font_path = "./malgun.ttf"  # 윈도우에 설치된 맑은 고딕 폰트 경로
 
 # 폰트 이름 얻어오기
 font_name = font_manager.FontProperties(fname=font_path).get_name()
@@ -24,7 +24,7 @@ mpl.rc('font', family=font_name)
 # 유니코드에서 음수 부호 설정
 mpl.rc('axes', unicode_minus=False)
 
-path = '../data/Paris/listings.csv'
+path = './파리_data/listings.csv'
 
 raw = pd.read_csv(path)
 df = raw.copy()
